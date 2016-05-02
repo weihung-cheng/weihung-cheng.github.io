@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-
+<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
 <head>
 
     <meta charset="utf-8">
@@ -28,7 +28,10 @@
         <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
         <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
+	<script type="text/javascript" src="http://ajblk.github.io/SyntaxHighlightGenerator-v3.0/scripts/sh-v3.0-min.js"></script>
+	<link type="text/css" rel="stylesheet" href="http://ajblk.github.io/SyntaxHighlightGenerator-v3.0/styles/shCoreDefault.css"/>
 
+	
 </head>
 
 <body id="page-top" class="index">
@@ -111,7 +114,8 @@
                     <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-								<h3>Lonely Gods</h3>
+								<h3>Lonely Gods<br>
+								<h5>(INCLUDES CODE SAMPLE)</h5>
                             </div>
                         </div>
                         <img src="img/portfolio/lonelygods.png" class="img-responsive" alt="">
@@ -141,7 +145,9 @@
                     <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
                         <div class="caption">
                             <div class="caption-content">
-                                <h3>Kamikaze Titan Hearts</h3>
+                                <h3>Kamikaze Titan Hearts<br>
+								<h5>(INCLUDES CODE SAMPLE)</h5>
+								</h3>
                             </div>
                         </div>
                         <img src="img/portfolio/KTH.png" class="img-responsive" alt="">
@@ -186,9 +192,8 @@
                 </div>
                 <div class="col-lg-6">
                     <p><strong>Name</strong>: Wei-Hung “Willie” Cheng
-					<br><strong>Birthplace</strong>: Kaohsiung, Taiwan
 					<br><strong>Preferred Roles</strong>: Game Designer, Technical Designer
-					<br><strong>Scripting Experience</strong>: C#, C++, Javascript, Actionscript
+					<br><strong>Scripting Experience</strong>: C#, C++, Javascript, Actionscript, Lua
 					<br><strong>Engine Experience</strong>: Unity</p>
                 </div>
             </div>
@@ -417,6 +422,9 @@
                             </ul>
                             <p align="justify">My senior project for Champlain College, I worked alongside a small team (4-9) over the course of two semesters to create Ripples, a competitive rhythmic pseudo-bullet-hell brawler where players are martial arts masters dueling on water to the beat of music. The project began as a reimagined shoot'em up on a pond with ripple-based offensive mechanics, where one's bullets are ripples, and shooting is achieved by jumping on the water's surface. This slowly evolved to have more rhythm game elements; players jump automatically to the beat of the musical track in the background, allowing players to focus on positioning and activating their character's special abilities. I prototyped the primary mechanics, iterated on them throughout development, and created systems of player feedback. I was also in charge of building boss encounters using musical tracks.</p>
 							<p><a href = "https://docs.google.com/document/d/1BnD4JxL_fSAbHBSuS18uaLPBeP9M3HVD80arPmHSY84/edit?usp=sharing" target="_blank">Design Documentation</a></p>
+							<p align="justify">
+							
+							</p>
                             <!--<img src="img/portfolio/ripples3D.gif" class="img-responsive img-centered" alt="">-->
 							<iframe width="560" height="315" src="https://www.youtube.com/embed/8etN0d3ntXs" frameborder="0" allowfullscreen></iframe>
 							<p>
@@ -523,7 +531,7 @@
                             <hr class="star-primary">
 							<ul class="list-inline item-details">
                                 <li>Position:
-                                    <strong>Game Designer/Programmer</a>
+                                    <strong>Game Designer/Programmer (Solo Project)</a>
                                     </strong>
                                 </li>
 								<li>Technologies:
@@ -537,6 +545,87 @@
                             </ul>
                             <p align="justify">A grappling hook-based 2D boss fighter, Kamikaze Titan Hearts tasks the player with injecting love directly into the heart of a homing rocket-spewing, laser-firing, bullet-spitting, and chronically depressed multi-stage death mechanism. Created over the course of 3 weeks, KTH is an attempt to subvert the generally shootastic genre of boss rush/bullet hell games, removing shooting in favor of a grappling hook movement and defense mechanic. The player's grappling rope reflects or absorbs projectiles, and when enough reflection occurs, the player is able to emit an offensive burst of hearts, which can detach the boss' outer segments, or assail the heart directly.</p>
                             <img src="img/portfolio/kth.gif" class="img-responsive img-centered" alt="">
+							<p align="justify">
+							A sample of my laser state-checking code:
+							</p>
+							<div id="highlighterMainDiv_473247" class="syntaxhighlighter csharp"><div id="toolbarContainer_473247" class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td>&nbsp;</td></tr><tr><td class="gutter"><div class="line number1 index0 alt2">01</div><div class="line number2 index1 alt1">02</div><div class="line number3 index2 alt2">03</div><div class="line number4 index3 alt1">04</div><div class="line number5 index4 alt2">05</div><div class="line number6 index5 alt1">06</div><div class="line number7 index6 alt2">07</div><div class="line number8 index7 alt1">08</div><div class="line number9 index8 alt2">09</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div><div class="line number44 index43 alt1">44</div><div class="line number45 index44 alt2">45</div><div class="line number46 index45 alt1">46</div><div class="line number47 index46 alt2">47</div><div class="line number48 index47 alt1">48</div><div class="line number49 index48 alt2">49</div><div class="line number50 index49 alt1">50</div><div class="line number51 index50 alt2">51</div><div class="line number52 index51 alt1">52</div><div class="line number53 index52 alt2">53</div><div class="line number54 index53 alt1">54</div><div class="line number55 index54 alt2">55</div><div class="line number56 index55 alt1">56</div><div class="line number57 index56 alt2">57</div><div class="line number58 index57 alt1">58</div><div class="line number59 index58 alt2">59</div><div class="line number60 index59 alt1">60</div><div class="line number61 index60 alt2">61</div><div class="line number62 index61 alt1">62</div><div class="line number63 index62 alt2">63</div><div class="line number64 index63 alt1">64</div><div class="line number65 index64 alt2">65</div><div class="line number66 index65 alt1">66</div><div class="line number67 index66 alt2">67</div><div class="line number68 index67 alt1">68</div><div class="line number69 index68 alt2">69</div><div class="line number70 index69 alt1">70</div><div class="line number71 index70 alt2">71</div><div class="line number72 index71 alt1">72</div><div class="line number73 index72 alt2">73</div></td><td id="codeContainer_473247" class="code"><div id="container_473247" class="container"><div class="line number1 index0 alt2"><code class="csharp comments">/*The laser implementation works as such: a reticle moves </code></div><div class="line number2 index1 alt1"><code class="csharp comments">in the player's general direction, with some wobbling to </code></div><div class="line number3 index2 alt2"><code class="csharp comments">simulate inaccuracy. Once the reticule has moved for a </code></div><div class="line number4 index3 alt1"><code class="csharp comments">preset amount of time, it stops and directs a ray between </code></div><div class="line number5 index4 alt2"><code class="csharp comments">the appropriate boss module and itself for a period of time,</code></div><div class="line number6 index5 alt1"><code class="csharp comments">then resumes seeking.*/</code></div><div class="line number7 index6 alt2">&nbsp;</div><div class="line number8 index7 alt1"><code class="csharp comments">//Reticule imperative</code></div><div class="line number9 index8 alt2"><code class="csharp keyword">private</code> <code class="csharp keyword">void</code> <code class="csharp plain">SeekPlayer()</code></div><div class="line number10 index9 alt1"><code class="csharp plain">{</code></div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(!firing)</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Move if distance from target is greater than 1</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(player != </code><code class="csharp keyword">null</code> <code class="csharp plain">&amp;&amp; Vector3.Distance(transform.position, player.transform.position) &gt; 1f)</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">transform.Translate(Vector3.forward * trackSpeed* Time.deltaTime);</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">transform.position = </code><code class="csharp keyword">new</code> <code class="csharp plain">Vector3(transform.position.x, transform.position.y, 185);</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number20 index19 alt1"><code class="csharp plain">}</code></div><div class="line number21 index20 alt2"><code class="csharp comments">//Coroutine that constantly picks out points close</code></div><div class="line number22 index21 alt1"><code class="csharp comments">//to the player's actual location, directing the reticule.</code></div><div class="line number23 index22 alt2"><code class="csharp plain">IEnumerator FindRandom()</code></div><div class="line number24 index23 alt1"><code class="csharp plain">{</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">while</code> <code class="csharp plain">(</code><code class="csharp keyword">true</code><code class="csharp plain">)</code></div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(player != </code><code class="csharp keyword">null</code><code class="csharp plain">)</code></div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number29 index28 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">randomPoint = </code><code class="csharp keyword">new</code> <code class="csharp plain">Vector2(Random.Range(player.transform.position.x - inaccuracy, player.transform.position.x + inaccuracy),</code></div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Random.Range(player.transform.position.y - inaccuracy, player.transform.position.y + inaccuracy));</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">yield</code> <code class="csharp keyword">return</code> <code class="csharp keyword">new</code> <code class="csharp plain">WaitForSeconds(fireInterval / 3);</code></div><div class="line number33 index32 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number34 index33 alt1"><code class="csharp plain">}</code></div><div class="line number35 index34 alt2">&nbsp;</div><div class="line number36 index35 alt1"><code class="csharp comments">//Laser intersection check</code></div><div class="line number37 index36 alt2"><code class="csharp keyword">private</code> <code class="csharp keyword">void</code> <code class="csharp plain">LaserCheckHit()</code></div><div class="line number38 index37 alt1"><code class="csharp plain">{</code></div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//First, cast a ray between the reticule and the boss module.</code></div><div class="line number40 index39 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position, thisRet.transform.position - transform.position);</code></div><div class="line number41 index40 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//If the ray intersects another object...</code></div><div class="line number42 index41 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(hit.Length &gt; 0)</code></div><div class="line number43 index42 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number44 index43 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">foreach</code> <code class="csharp plain">(RaycastHit2D hitObj </code><code class="csharp keyword">in</code> <code class="csharp plain">hit)</code></div><div class="line number45 index44 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number46 index45 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">/*If the object is the player's grappling rope, have the linerenderer</code></div><div class="line number47 index46 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">be reflected to an appropriate position, and increase the player's</code></div><div class="line number48 index47 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">secondary resource count.*/</code></div><div class="line number49 index48 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(Input.GetMouseButton(0) &amp;&amp; hitObj.collider.gameObject.tag == </code><code class="csharp string">"LineCollider"</code><code class="csharp plain">)</code></div><div class="line number50 index49 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number51 index50 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">line.SetVertexCount(3);</code></div><div class="line number52 index51 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">line.SetPosition(1, hitObj.point);</code></div><div class="line number53 index52 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Vector2 newPoint = (Vector3.Reflect(thisRet.transform.position - transform.position, hitObj.normal)*10);</code></div><div class="line number54 index53 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">line.SetPosition(2, newPoint);</code></div><div class="line number55 index54 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">playerLove.addLove(1);</code></div><div class="line number56 index55 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number57 index56 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">/*If the object is the player, enable a variety of secondary effects</code></div><div class="line number58 index57 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">and decrement player health.*/</code></div><div class="line number59 index58 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(hitObj.collider.gameObject.tag == </code><code class="csharp string">"Player"</code> <code class="csharp plain">&amp;&amp; !reflected)</code></div><div class="line number60 index59 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number61 index60 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">playerHealthInfo.AlterHealth(-damage);</code></div><div class="line number62 index61 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">camInfo.shake = 0.3f;</code></div><div class="line number63 index62 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">camVig.enabled = </code><code class="csharp keyword">true</code><code class="csharp plain">;</code></div><div class="line number64 index63 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">laserEffect.chromeTime ++;</code></div><div class="line number65 index64 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">sparks.Play();</code></div><div class="line number66 index65 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">laserEffect.StartCoroutine(</code><code class="csharp string">"ChromeOff"</code><code class="csharp plain">);</code></div><div class="line number67 index66 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number68 index67 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number69 index68 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">line.SetWidth(10, 3);</code></div><div class="line number70 index69 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Invoke(</code><code class="csharp string">"ReduceLaser"</code><code class="csharp plain">, 3);</code></div><div class="line number71 index70 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number72 index71 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">shooting = </code><code class="csharp keyword">false</code><code class="csharp plain">;</code></div><div class="line number73 index72 alt2"><code class="csharp plain">}</code></div></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></tbody></table></div>
+
+<pre id="presourcecode_473247" class="displaysourcecode" >
+/*The laser implementation works as such: a reticle moves 
+in the player's general direction, with some wobbling to 
+simulate inaccuracy. Once the reticule has moved for a 
+preset amount of time, it stops and directs a ray between 
+the appropriate boss module and itself for a period of time,
+then resumes seeking.*/
+
+//Reticule imperative
+private void SeekPlayer()
+{
+    if (!firing)
+    {
+        //Move if distance from target is greater than 1
+        if (player != null &amp;&amp; Vector3.Distance(transform.position, player.transform.position) &gt; 1f)
+        {
+            transform.Translate(Vector3.forward * trackSpeed* Time.deltaTime);
+            transform.position = new Vector3(transform.position.x, transform.position.y, 185);
+        }
+    }
+}
+//Coroutine that constantly picks out points close
+//to the player's actual location, directing the reticule.
+IEnumerator FindRandom()
+{
+    while (true)
+    {
+        if (player != null)
+        {
+            randomPoint = new Vector2(Random.Range(player.transform.position.x - inaccuracy, player.transform.position.x + inaccuracy),
+                                          Random.Range(player.transform.position.y - inaccuracy, player.transform.position.y + inaccuracy));
+        }
+        yield return new WaitForSeconds(fireInterval / 3);
+    }
+}
+
+//Laser intersection check
+private void LaserCheckHit()
+{
+    //First, cast a ray between the reticule and the boss module.
+    RaycastHit2D[] hit = Physics2D.RaycastAll(transform.position, thisRet.transform.position - transform.position);
+    //If the ray intersects another object...
+    if (hit.Length &gt; 0)
+    {
+        foreach (RaycastHit2D hitObj in hit)
+        {
+            /*If the object is the player's grappling rope, have the linerenderer
+            be reflected to an appropriate position, and increase the player's
+            secondary resource count.*/
+            if (Input.GetMouseButton(0) &amp;&amp; hitObj.collider.gameObject.tag == "LineCollider")
+            {
+                line.SetVertexCount(3);
+                line.SetPosition(1, hitObj.point);
+                Vector2 newPoint = (Vector3.Reflect(thisRet.transform.position - transform.position, hitObj.normal)*10);
+                line.SetPosition(2, newPoint);
+                playerLove.addLove(1);
+            }
+            /*If the object is the player, enable a variety of secondary effects
+            and decrement player health.*/
+            if (hitObj.collider.gameObject.tag == "Player" &amp;&amp; !reflected)
+            {
+                playerHealthInfo.AlterHealth(-damage);
+                camInfo.shake = 0.3f;
+                camVig.enabled = true;
+                laserEffect.chromeTime ++;
+                sparks.Play();
+                laserEffect.StartCoroutine("ChromeOff");
+            }
+        }
+        line.SetWidth(10, 3);
+        Invoke("ReduceLaser", 3);
+    }
+    shooting = false;
+}
+</pre>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -634,7 +723,7 @@
                             <hr class="star-primary">
 							<ul class="list-inline item-details">
                                 <li>Position:
-                                    <strong>Game Designer/Programmer</a>
+                                    <strong>Game Designer/Programmer (Solo Project)</a>
                                     </strong>
                                 </li>
 								<li>Technologies:
@@ -648,6 +737,76 @@
                             </ul>
                             <p align="justify">Initially created for Global Game Jam 2016, Lonely Gods is a slow experience where players are deposited in a persistent world with its own system of stars. Once per real-world day, players can point to the skies and connect stars to form constellations, which then tell the player a fortune. Fortunes are unique and are synced with an ever-growing list online, ensuring that the player's experience is never repeated. The game also features a steganographic screenshot feature, which allows players to take a picture of their world, and then share that picture as a portal to their particular worldseed.</p>
                             <img src="img/portfolio/lonelygods2.gif" class="img-responsive img-centered" alt="">
+							<p align="justify">
+							A sample of my starfield generation code:
+							</p>
+							<div id="highlighterMainDiv_92332" class="syntaxhighlighter csharp"><div id="toolbarContainer_92332" class="toolbar"><span><a href="#" class="toolbar_item command_help help">?</a></span></div><table border="0" cellpadding="0" cellspacing="0"><tbody><tr><td>&nbsp;</td></tr><tr><td class="gutter"><div class="line number1 index0 alt2">01</div><div class="line number2 index1 alt1">02</div><div class="line number3 index2 alt2">03</div><div class="line number4 index3 alt1">04</div><div class="line number5 index4 alt2">05</div><div class="line number6 index5 alt1">06</div><div class="line number7 index6 alt2">07</div><div class="line number8 index7 alt1">08</div><div class="line number9 index8 alt2">09</div><div class="line number10 index9 alt1">10</div><div class="line number11 index10 alt2">11</div><div class="line number12 index11 alt1">12</div><div class="line number13 index12 alt2">13</div><div class="line number14 index13 alt1">14</div><div class="line number15 index14 alt2">15</div><div class="line number16 index15 alt1">16</div><div class="line number17 index16 alt2">17</div><div class="line number18 index17 alt1">18</div><div class="line number19 index18 alt2">19</div><div class="line number20 index19 alt1">20</div><div class="line number21 index20 alt2">21</div><div class="line number22 index21 alt1">22</div><div class="line number23 index22 alt2">23</div><div class="line number24 index23 alt1">24</div><div class="line number25 index24 alt2">25</div><div class="line number26 index25 alt1">26</div><div class="line number27 index26 alt2">27</div><div class="line number28 index27 alt1">28</div><div class="line number29 index28 alt2">29</div><div class="line number30 index29 alt1">30</div><div class="line number31 index30 alt2">31</div><div class="line number32 index31 alt1">32</div><div class="line number33 index32 alt2">33</div><div class="line number34 index33 alt1">34</div><div class="line number35 index34 alt2">35</div><div class="line number36 index35 alt1">36</div><div class="line number37 index36 alt2">37</div><div class="line number38 index37 alt1">38</div><div class="line number39 index38 alt2">39</div><div class="line number40 index39 alt1">40</div><div class="line number41 index40 alt2">41</div><div class="line number42 index41 alt1">42</div><div class="line number43 index42 alt2">43</div><div class="line number44 index43 alt1">44</div><div class="line number45 index44 alt2">45</div><div class="line number46 index45 alt1">46</div><div class="line number47 index46 alt2">47</div><div class="line number48 index47 alt1">48</div><div class="line number49 index48 alt2">49</div><div class="line number50 index49 alt1">50</div><div class="line number51 index50 alt2">51</div><div class="line number52 index51 alt1">52</div><div class="line number53 index52 alt2">53</div><div class="line number54 index53 alt1">54</div><div class="line number55 index54 alt2">55</div><div class="line number56 index55 alt1">56</div><div class="line number57 index56 alt2">57</div><div class="line number58 index57 alt1">58</div><div class="line number59 index58 alt2">59</div><div class="line number60 index59 alt1">60</div><div class="line number61 index60 alt2">61</div><div class="line number62 index61 alt1">62</div></td><td id="codeContainer_92332" class="code"><div id="container_92332" class="container"><div class="line number1 index0 alt2"><code class="csharp keyword">void</code> <code class="csharp plain">GenerateWorld(</code><code class="csharp keyword">int</code> <code class="csharp plain">newSeed)</code></div><div class="line number2 index1 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number3 index2 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Check if the worldseed has already been set</code></div><div class="line number4 index3 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(seed == 0)</code></div><div class="line number5 index4 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number6 index5 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">while</code><code class="csharp plain">(seed == 0)</code></div><div class="line number7 index6 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">seed = (</code><code class="csharp keyword">int</code><code class="csharp plain">)Random.Range(-1024, 1024);</code></div><div class="line number8 index7 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number9 index8 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">seed = newSeed;</code></div><div class="line number10 index9 alt1">&nbsp;</div><div class="line number11 index10 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Debug.Log(</code><code class="csharp string">"Seed: "</code> <code class="csharp plain">+ seed);</code></div><div class="line number12 index11 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Random.seed = seed;</code></div><div class="line number13 index12 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Generate stars</code></div><div class="line number14 index13 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">for</code> <code class="csharp plain">(</code><code class="csharp keyword">int</code> <code class="csharp plain">i = 0; i &lt; starCount; i++)</code></div><div class="line number15 index14 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number16 index15 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Stars are generated at random projections from a sphere</code></div><div class="line number17 index16 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Vector3 p = Random.onUnitSphere;</code></div><div class="line number18 index17 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Thrust projections into space, setting star distance </code></div><div class="line number19 index18 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//to somewhere between the min and max specified</code></div><div class="line number20 index19 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">p *= Random.Range(minRadius, maxRadius);</code></div><div class="line number21 index20 alt2">&nbsp;</div><div class="line number22 index21 alt1">&nbsp;</div><div class="line number23 index22 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">GameObject star = Instantiate(starObject, p, Quaternion.identity) </code><code class="csharp keyword">as</code> <code class="csharp plain">GameObject;</code></div><div class="line number24 index23 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">star.transform.parent = </code><code class="csharp keyword">this</code><code class="csharp plain">.transform;</code></div><div class="line number25 index24 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Previously used a completely random color for the</code></div><div class="line number26 index25 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//stars, but later realized that picked colors are</code></div><div class="line number27 index26 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//more aesthetically pleasing</code></div><div class="line number28 index27 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Color col = new Color(Random.Range(0f, 1f), Random.Range(0, 1f), Random.Range(0, 1f));</code></div><div class="line number29 index28 alt2">&nbsp;</div><div class="line number30 index29 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Picked color implementation.</code></div><div class="line number31 index30 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Most stars will be white, with a small number of </code></div><div class="line number32 index31 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//stars being other colors. Draws from a list of</code></div><div class="line number33 index32 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//colors specified in-editor, then chooses a final</code></div><div class="line number34 index33 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//color by deviating slightly from the picked hue.</code></div><div class="line number35 index34 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Color col;</code></div><div class="line number36 index35 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">int</code> <code class="csharp plain">colChance = (</code><code class="csharp keyword">int</code><code class="csharp plain">)Random.Range(0, colOneInMod);</code></div><div class="line number37 index36 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">if</code> <code class="csharp plain">(colChance == 1)</code></div><div class="line number38 index37 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number39 index38 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">col = starColors[Random.Range(0, starColors.Count)];</code></div><div class="line number40 index39 alt1">&nbsp;</div><div class="line number41 index40 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">float</code> <code class="csharp plain">shift = Random.Range(-0.5f, 0.5f);</code></div><div class="line number42 index41 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">col.r += shift;</code></div><div class="line number43 index42 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">col.g += shift;</code></div><div class="line number44 index43 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">col.b += shift;</code></div><div class="line number45 index44 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number46 index45 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">else</code></div><div class="line number47 index46 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">{</code></div><div class="line number48 index47 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">col = </code><code class="csharp keyword">new</code> <code class="csharp plain">Color(1, 1, 1);</code></div><div class="line number49 index48 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number50 index49 alt1">&nbsp;</div><div class="line number51 index50 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Generate other miscellaneous attributes, then</code></div><div class="line number52 index51 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//initialize those values within the instantiated</code></div><div class="line number53 index52 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//Star object. Also push the star into a list for</code></div><div class="line number54 index53 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp comments">//other game functionality.</code></div><div class="line number55 index54 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">float</code> <code class="csharp plain">starSize = Random.Range(minStarSize, maxStarSize);</code></div><div class="line number56 index55 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">float</code> <code class="csharp plain">bMod = Random.Range(minStarTwinkleMod, maxStarTwinkleMod);</code></div><div class="line number57 index56 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp keyword">string</code> <code class="csharp plain">name = (</code><code class="csharp keyword">int</code><code class="csharp plain">)Random.Range(1, 5012) + </code><code class="csharp string">" Archetype"</code><code class="csharp plain">;</code></div><div class="line number58 index57 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">Star thisStarScript = star.GetComponent&lt;Star&gt;();</code></div><div class="line number59 index58 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">thisStarScript.InitStar(col, starSize, bMod, name, activatedSize);</code></div><div class="line number60 index59 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">stars.Add(thisStarScript);</code></div><div class="line number61 index60 alt2"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div><div class="line number62 index61 alt1"><code class="csharp spaces">&nbsp;&nbsp;&nbsp;&nbsp;</code><code class="csharp plain">}</code></div></div></td></tr><tr><td>&nbsp;</td></tr><tr><td>&nbsp;</td></tr></tbody></table></div>
+
+<pre id="presourcecode_92332" class="displaysourcecode" >
+void GenerateWorld(int newSeed)
+    {
+        //Check if the worldseed has already been set
+        if (seed == 0)
+        {
+            while(seed == 0)
+            seed = (int)Random.Range(-1024, 1024);
+        }
+        seed = newSeed;
+
+        Debug.Log("Seed: " + seed);
+        Random.seed = seed;
+        //Generate stars
+        for (int i = 0; i &lt; starCount; i++)
+        {
+            //Stars are generated at random projections from a sphere
+            Vector3 p = Random.onUnitSphere;
+            //Thrust projections into space, setting star distance 
+            //to somewhere between the min and max specified
+            p *= Random.Range(minRadius, maxRadius);
+
+
+            GameObject star = Instantiate(starObject, p, Quaternion.identity) as GameObject;
+            star.transform.parent = this.transform;
+            //Previously used a completely random color for the
+            //stars, but later realized that picked colors are
+            //more aesthetically pleasing
+            //Color col = new Color(Random.Range(0f, 1f), Random.Range(0, 1f), Random.Range(0, 1f));
+
+            //Picked color implementation.
+            //Most stars will be white, with a small number of 
+            //stars being other colors. Draws from a list of
+            //colors specified in-editor, then chooses a final
+            //color by deviating slightly from the picked hue.
+            Color col;
+            int colChance = (int)Random.Range(0, colOneInMod);
+            if (colChance == 1)
+            {
+                col = starColors[Random.Range(0, starColors.Count)];
+
+                float shift = Random.Range(-0.5f, 0.5f);
+                col.r += shift;
+                col.g += shift;
+                col.b += shift;
+            }
+            else
+            {
+                col = new Color(1, 1, 1);
+            }
+
+            //Generate other miscellaneous attributes, then
+            //initialize those values within the instantiated
+            //Star object. Also push the star into a list for
+            //other game functionality.
+            float starSize = Random.Range(minStarSize, maxStarSize);
+            float bMod = Random.Range(minStarTwinkleMod, maxStarTwinkleMod);
+            string name = (int)Random.Range(1, 5012) + " Archetype";
+            Star thisStarScript = star.GetComponent&lt;Star&gt;();
+            thisStarScript.InitStar(col, starSize, bMod, name, activatedSize);
+            stars.Add(thisStarScript);
+        }
+    }
+</pre>
+
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
@@ -674,6 +833,7 @@
     <!-- Custom Theme JavaScript -->
     <script src="js/freelancer.js"></script>
 
+	<script type="text/javascript">SyntaxHighlighter.initialize();</script>
 </body>
 
 </html>
